@@ -29,7 +29,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<defaultGoal>test</defaultGoal>
+		<defaultGoal>verify</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
