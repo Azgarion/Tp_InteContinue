@@ -45,11 +45,6 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.jboss.maven.surefire.modular</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>1.0.0.Alpha3</version>
-			</plugin>
 		</plugins>
 	</build>
 </project>
