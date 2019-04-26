@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import Tp.Tp_JEE.FIFO;
+
 import java.util.NoSuchElementException;
 
 import org.junit.jupiter.api.AfterEach;
