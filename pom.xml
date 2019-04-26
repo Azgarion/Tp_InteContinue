@@ -19,20 +19,19 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
 			<version>5.1.0</version>
-
 		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
 			<version>5.1.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-params</artifactId>
+			<version>5.1.0</version>
+		</dependency>
 	</dependencies>
 	<build>
-		<directory>${project.basedir}/target</directory>
-		<outputDirectory>${project.build.directory}/classes</outputDirectory>
-		<testOutputDirectory>${project.build.directory}/test-classes</testOutputDirectory>
-		<sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
-		<testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
 		
 		<defaultGoal>verify</defaultGoal>
 		<plugins>
